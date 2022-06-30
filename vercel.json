@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scope": "rubynor",
+  "scope": "vzrenggamani",
   "alias": ["bigfive-riset-teknotep"],
   "env": {
     "MONGODB_URI": "@mongodb_uri",
