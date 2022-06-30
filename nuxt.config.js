@@ -217,7 +217,7 @@ export default {
           }
         ],
         seo: true,
-        baseUrl: 'https://bigfive-test.com',
+        baseUrl: 'https://bigfive.riset.teknologipendidikan.or.id',
         defaultLocale: 'en',
         strategy: 'prefix_except_default',
         lazy: true,
@@ -253,7 +253,7 @@ export default {
   axios: {
   },
   sitemap: {
-    hostname: 'https://bigfive-test.com'
+    hostname: 'https://bigfive.riset.teknologipendidikan.or.id'
   },
   webfontloader: {
     google: {
