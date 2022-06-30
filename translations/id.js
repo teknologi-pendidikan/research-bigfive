@@ -9,8 +9,8 @@ export default {
       description: 'Ikuti tes open-source kepribadian Lima Besar gratis. Belajar untuk mengetahui ciri-ciri kepribadian Anda dan bandingkan diri Anda dengan pasangan, kolega, teman atau keluarga Anda.'
     },
     title: 'Tes Kepribadian Lima Besar',
-    call_to_action: 'Ikuti tes gratis sekarang',
-    no_registration: '* Tidak perlu registrasi',
+    call_to_action: 'Ikuti tes sekarang',
+    no_registration: '',
     tests_taken: 'Lebih dari 4.000.000 orang telah mengikuti tes',
     compare: {
       title: 'Bandingkan diri Anda dengan orang lain',
@@ -38,7 +38,7 @@ export default {
       }
     },
     description: {
-      top: 'Belajar mengenal diri Anda lebih baik dengan tes kepribadian sumber terbuka gratis.',
+      top: 'Belajar mengenal diri Anda lebih baik dengan tes kepribadian lima besar.',
       subtop: 'Itu',
       subtop2: ' adalah model psikologis yang paling tervalidasi secara ilmiah dan dapat diandalkan untuk mengukur kepribadian.',
       reference: `Tes dan evaluasi untuk situs ini dikumpulkan dari

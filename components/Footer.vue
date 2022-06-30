@@ -8,27 +8,14 @@
       >
         <v-row class="footer-wrapper pl-0">
           <v-col class="footer-heading">
-            SAY<br>HALLO
+            RISET<br>TEP.
           </v-col>
           <v-col
             cols="12"
             class="pt-0"
           >
             <a
-              href="https://www.facebook.com/rubynorno/"
-              aria-label="Gå til facebook"
-            >
-              <v-icon large>{{ mdiFacebook }}</v-icon>
-            </a>
-
-            <v-divider
-              inset
-              vertical
-              class="mx-1"
-            />
-
-            <a
-              href="https://github.com/rubynor"
+              href="https://github.com/teknologi-pendidikan"
               aria-label="Gå til github"
             >
               <v-icon large>{{ mdiGithub }}</v-icon>
@@ -41,7 +28,7 @@
             />
 
             <a
-              href="https://twitter.com/rubynor"
+              href="https://twitter.com/teknotep"
               aria-label="Gå til twitter"
             >
               <v-icon large>{{ mdiTwitter }}</v-icon>
@@ -54,7 +41,7 @@
             />
 
             <a
-              href="https://no.linkedin.com/company/rubynor-as"
+              href="https://linkedin.com/company/teknologi-pendidikan"
               aria-label="Gå til linkedIn"
             >
               <v-icon large>{{ mdiLinkedin }}</v-icon>
@@ -64,28 +51,19 @@
             cols="12"
             class="footer-about"
           >
-            Rubynor<br>
-            Bedriftsveien 64<br>
-            3735 Skien, Norway<br><br>
-            bigfive-test@rubynor.com<br>
+            Proyek Riset Mahasiswa<br>
+            Departemen Teknologi Pendidikan<br>
+            Universitas Negeri Malang (UM)<br><br>
+            riset@teknologipendidikan.or.id<br>
           </v-col>
           <v-col
             class="footer-text"
             cols="12"
           >
-            © {{ new Date().getFullYear() }} — Rubynor - all rights reserved.
+            © {{ new Date().getFullYear() }} — Teknologi Pendidikan - all rights reserved.<br>
+            This works based on bigfive-test.com
           </v-col>
         </v-row>
-      </v-col>
-      <v-col cols="auto">
-        <h3 class="mb-2">
-          Having questions about or problems with the site?
-        </h3>
-        Please read the <nuxt-link
-          :to="localePath('faq')"
-        >
-          <a @click="logClick('FAQ')">FAQ</a>
-        </nuxt-link>.
       </v-col>
     </v-row>
   </v-footer>
