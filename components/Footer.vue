@@ -60,8 +60,20 @@
             class="footer-text"
             cols="12"
           >
-            © {{ new Date().getFullYear() }} — Teknologi Pendidikan - all rights reserved.<br>
+            © {{ new Date().getFullYear() }} — Teknologi Pendidikan - all rights
+            reserved.<br>
             This works based on bigfive-test.com
+          </v-col>
+          <v-col cols="12">
+            <a
+              href="https://vercel.com?utm_source=teknologi-pendidikan&utm_campaign=oss"
+            >
+              <img
+                class="responsive"
+                alt="Powered by Vercel"
+                src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
+              >
+            </a>
           </v-col>
         </v-row>
       </v-col>
@@ -98,16 +110,16 @@ export default {
   max-width: 1200px;
 }
 .footer-heading {
-  font-family: 'Passion One', cursive;
+  font-family: "Passion One", cursive;
   font-size: 4rem;
   color: #4c4f5a;
   line-height: 3.5rem;
 }
 .footer-about {
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 .footer-text {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   color: #b3b3b3;
 }
 .footer-wrapper {
