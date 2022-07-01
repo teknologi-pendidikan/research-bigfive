@@ -56,7 +56,7 @@ export default {
   buildModules: [
     '@nuxtjs/vuetify',
     ['@nuxtjs/google-analytics', {
-      id: '-----'
+      id: 'G-04SCMY6R4N'
     }]
   ],
   /*
@@ -232,7 +232,7 @@ export default {
     '@nuxtjs/sitemap',
     [
       'nuxt-amplitude', {
-        apiKey: '2ceb7de83dc2b9a3f73bbece2eaf0d94',
+        apiKey: 'fad762423fc518abc5f50d4ccd015bb7',
         config: {
           saveEvents: true,
           includeUtm: true,
