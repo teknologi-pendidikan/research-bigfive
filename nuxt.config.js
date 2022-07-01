@@ -26,6 +26,15 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       // { rel: 'preconnect', href: 'https://cdn.jsdelivr.net', crossorigin: true }
+    ],
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-04SCMY6R4N',
+        async: true
+      },
+      {
+        src: 'ga.js'
+      }
     ]
   },
   /*
@@ -54,10 +63,7 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    '@nuxtjs/vuetify',
-    ['@nuxtjs/google-analytics', {
-      id: 'G-04SCMY6R4N'
-    }]
+    '@nuxtjs/vuetify'
   ],
   /*
   ** Nuxt.js modules
