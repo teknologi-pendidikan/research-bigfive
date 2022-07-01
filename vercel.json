@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scope": "vzrenggamani",
+  "scope": "teknologi-pendidikan",
   "alias": ["bigfive-riset-teknotep"],
   "env": {
     "MONGODB_URI": "@mongodb_uri",
